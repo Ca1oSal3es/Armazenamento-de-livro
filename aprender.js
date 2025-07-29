@@ -2,7 +2,8 @@ let livro = parseInt(prompt(' Quantos livros você quer armazenar? '))
 let armg
 let gurd = []
 let guard = []
-let armazenar
+let armazenar = []
+let resumo
 
 
 function mostrar (texto) {
@@ -42,8 +43,13 @@ mostrar (' o livro ' + gurd[v] + ' tem ' + guard[v] + ' paginas ');
 
 for(let r = 0 ;  r < gurd.length; r++){
 
-prompt('Adicione o resumo do livro ' + gurd[r])
+resumo = prompt('Adicione o resumo do livro ' + gurd[r])
+armazenar.push(resumo)
 
+}
+
+for( let c = 0; c < gurd.length; c++){
+mostrar ('O resumo do livro ' + armazenar[c]);
 }
 
 
