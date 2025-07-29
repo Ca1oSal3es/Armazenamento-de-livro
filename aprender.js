@@ -40,4 +40,10 @@ mostrar (' o livro ' + gurd[v] + ' tem ' + guard[v] + ' paginas ');
 
 }
 
+for(let r = 0 ;  r < gurd.length; r++){
+
+prompt('Adicione o resumo do livro ' + gurd[r])
+
+}
+
 
