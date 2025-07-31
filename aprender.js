@@ -4,6 +4,7 @@ let gurd = []
 let guard = []
 let armazenar = []
 let resumo
+let armgindi = []
 
 
 function mostrar (texto) {
@@ -52,4 +53,20 @@ for( let c = 0; c < gurd.length; c++){
 mostrar ('O resumo do livro ' + armazenar[c]);
 }
 
+let indicações = prompt('você tem alguma indicação de livro?')
+
+
+
+if(indicações.toLowerCase() === 'sim'){
+    let resposta = prompt('Digite a sua indicação de livro');
+    armgindi.push(resposta);
+}
+
+else{
+    alert('Ok!');
+}
+
+mostrar(' indicação de leitura ' + armgindi);
+
+document.bo
 
