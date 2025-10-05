@@ -15,7 +15,9 @@ function mostrar (texto) {
 for (let x = 1; x <= livro; x++) {
 let lvr = prompt('Digite o livro ' + x);
 gurd.push(lvr)
-console.log(gurd)
+gurd.push(guard)
+
+prompt("os livros guardados são" + lvr + guarda")
 
 for (let y= 1; y <= 1; y++ ){
 let pag = parseInt(prompt('quantas paginas tem  o livro ' + lvr));
